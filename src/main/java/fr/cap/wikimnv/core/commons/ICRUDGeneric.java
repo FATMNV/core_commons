@@ -10,7 +10,6 @@ public interface ICRUDGeneric  {
 	Object lire(Object id, Class cls) throws MNVException;
 	void supprimer(Object id, Class cls) throws MNVException;
 	Object sauver(Object obj) throws MNVException ;
-	
 }
 
 
